@@ -11,6 +11,7 @@ public class Reduce {
             }
             count++;
         }
+        // Print the number of iterations it took to reduce n to 0
         System.out.println(count);
     }
 }

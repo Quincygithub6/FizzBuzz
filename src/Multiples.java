@@ -6,6 +6,7 @@ public class Multiples {
                 count ++;
             }
         }
+        // print
         System.out.println(count);
     }
 }
