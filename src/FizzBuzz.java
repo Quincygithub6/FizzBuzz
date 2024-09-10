@@ -7,13 +7,13 @@ class FizzBuzz {
 
         int i = 1;
         while (i <= 100) {
-            extracted(i);
+            doFizzBuzz(i);
 
             i++;
         }
     }
 
-    private static void extracted(int i) {
+    public static void doFizzBuzz(int i) {
         // for (int i = 1; i < 100; i++) {
 
         // Find out which numbers divide i.
